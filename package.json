@@ -1,0 +1,31 @@
+{
+  "name": "blog-s7",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "mongodb": "^5.0.1",
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "^8.0.5",
+    "react-syntax-highlighter": "^15.5.0",
+    "sharp": "^0.31.3"
+  },
+  "devDependencies": {
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.1.6"
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
+  }
+}
